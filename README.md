@@ -3,7 +3,7 @@
 ## Overview
 
 This is the classic game of 2048 made in React js. Project by Abhishek Jain.  
-You can see the app running live at [https://lazycoder16.github.io/react-js-2048](https://lazycoder16.github.io/react-js-2048)  
+You can see the app running live at [https://lazycoder16.github.io/react-js-2048/](https://lazycoder16.github.io/react-js-2048/)  
 Here is a screenshot of the app:  
 ![Alt text](assets/screenshot.png?raw=true "Screenshot")  
 
