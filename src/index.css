@@ -1,13 +1,107 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
+  padding: 40px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 248, 239);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(119, 110, 101);
+  margin: 0;
+}
+
+#tag_line {
+  color: rgb(119, 110, 101);
+  font-size: 1.2em;
+}
+
+.box {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(119, 110, 101);
+  margin: 10px;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 0px;
+
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.obox {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background-color: rgb(205, 193, 180);
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.board {
+  background-color: rgb(187, 173, 160);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#score_txt {
+  background-color: rgb(205, 193, 180);
+  color: white;
+  margin-top: 15px;
+  margin-right: 70px;
+  padding: 5px;
+  border-radius: 5%;
+  font-size: 1.1em;
+}
+
+#reset-button {
+  background-color: #8f7a66;
+  border: solid 0px;
+  color: #ffffff;
+  border-radius: 5%;
+  padding: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+#score-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
