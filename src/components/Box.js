@@ -14,7 +14,7 @@ function Box({val}) {
   }
 
   let bgc = colors[val];
-  let tc = val > 4 ? '#ffffff' : 'rgb(119, 110, 101)';
+  let tc = val > 4 ? '#ffffff' : '#776E65';
   return (
     
     <div className="obox">
